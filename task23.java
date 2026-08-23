@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class task23 {
+    
+    static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        
+        System.out.print(" Enter side a : ");
+        double  a = input.nextDouble();
+
+        System.out.print(" Enter side b : ");
+        double b = input.nextDouble();
+
+        double formula = Math.sqrt(Math.pow(a, 2)+ (Math.pow(b, 2)));
+
+        System.out.print( " Hypotenuse =  " + formula);
+    }
+}
